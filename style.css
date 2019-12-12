@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-color: #353030;
+    color: #9CA3B0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: black 2px 5px;
+    color: #FDC457;
+    margin: 20px;
+}
+
+#toolBox {
+    width: 20%;
+    height: auto;
+    left: 10%;
+}
+
+.card-body {
+    text-align: left;
+    background-color: #352a26;
+    text-shadow: black 2x 5px;
+}
+
+section {
+    color: #3b69a9;
+    text-align: center;
+    text-shadow: black 3px 3px;
+    font-size: 2vw;
+    margin: 20px;
+}
+
+div {
+    text-align: center;
+    color: #3b69a9;
+}
+
+button {
+    background-color: #FDC457;
+    color: #353030;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: larger;
+    width: 75%;
+    color: #C9C9C9;
+    padding: 2px;
+}
+
+p {
+    font-size: 2vw;
+    color: #353030;
+}
+
+em {
+    color: #353030;
+}
