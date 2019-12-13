@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
-    background-color: #3f3d44;
+    background-color: #747d7a;
     color: #9CA3B0;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,23 +10,24 @@ body {
 
 header {
     text-align: center;
-    margin: 5% 5% 0 3%;
+    margin: 5% 5% 0 2%;
 }
 
-#brushes {
-    width: 20%;
+#girl {
+    width: 25%;
     height: auto;
 }
 
 #title {
     font-size: 4vw;
-    text-shadow: black 2px 5px;
-    color: #bdced9;
+    text-shadow: black 2px 3px;
+    color: #efa573;
 }
 
 #part {
-    text-align: left;
-    color: #94af4a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #cecece;
     text-shadow: black 3px 3px;
     font-size: 3vw;
     margin: 0 0 5% 5%;
@@ -36,7 +37,7 @@ header {
 
 .card-body {
     text-align: left;
-    background-color: #352a26;
+    background-color: #65706c;
     text-shadow: black 2x 5px;
 }
 
@@ -48,7 +49,7 @@ div {
 }
 
 .btn {
-    background-color: #bdced9;
+    background-color: #afafaf;
     font-size: 1vw;
     color: #353030;
 }
@@ -61,15 +62,19 @@ ul {
 li {
     font-size: larger;
     width: 75%;
-    color: #38beb3;
+    color: #352934;
     padding: 2px;
 }
 
 p {
     font-size: 2vw;
-    color: #bdced9;
+    color: #352934;
 }
 
 em {
-    color: #94af4a;
+    color: #efa573;
+}
+
+code {
+    color: #efa573;
 }
