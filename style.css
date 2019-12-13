@@ -28,7 +28,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #cecece;
-    text-shadow: black 3px 3px;
+    text-shadow: black 2px 3px;
     font-size: 3vw;
     margin: 0 0 5% 5%;
 }
@@ -61,6 +61,7 @@ ul {
 
 li {
     font-size: larger;
+    text-shadow: grey 1px 1px;
     width: 75%;
     color: #352934;
     padding: 2px;
