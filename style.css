@@ -41,12 +41,13 @@ div {
     color: #3b69a9;
 }
 
-button {
-    background-color: #FDC457;
+.btn {
+    font-size: 1vw;
     color: #353030;
 }
 
 ul {
+    font-size: 2vw;
     list-style-type: none;
 }
 
@@ -59,9 +60,9 @@ li {
 
 p {
     font-size: 2vw;
-    color: #353030;
+    color: #3b69a9;
 }
 
 em {
-    color: #353030;
+    color: #FDC556;
 }
