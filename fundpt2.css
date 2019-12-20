@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
-    background-color: #747d7a;
+    background-color: #07b594;
     color: #9CA3B0;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,12 @@ header {
     margin: 5% 5% 0 2%;
 }
 
-#girl {
+#back {
+    display: flex;
+    color: #b7c8ce;
+}
+
+#book {
     width: 25%;
     height: auto;
 }
@@ -21,13 +26,13 @@ header {
 #title {
     font-size: 4vw;
     text-shadow: black 2px 3px;
-    color: #efa573;
+    color: #ff9852;
 }
 
 #part {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: #cecece;
+    color: #b7c8ce;
     text-shadow: black 2px 3px;
     font-size: 3vw;
     margin: 0 0 5% 5%;
@@ -37,7 +42,7 @@ header {
 
 .card-body {
     text-align: left;
-    background-color: #65706c;
+    background-color: #102d3b;
     text-shadow: black 2x 5px;
 }
 
@@ -49,9 +54,9 @@ div {
 }
 
 .btn {
-    background-color: #afafaf;
+    background-color: #48575d;
     font-size: 1vw;
-    color: #353030;
+    color: #b7c8ce;
 }
 
 ul {
@@ -61,15 +66,15 @@ ul {
 
 li {
     font-size: larger;
-    text-shadow: grey 1px 1px;
+    text-shadow: #0a7362 1px 1px;
     width: 75%;
-    color: #352934;
+    color: #102d3b;
     padding: 2px;
 }
 
 p {
     font-size: 2vw;
-    color: #352934;
+    color: #b7c8ce;
 }
 
 em {
@@ -82,8 +87,4 @@ a {
 
 code {
     color: #efa573;
-}
-
-#container {
-    float: right;
 }

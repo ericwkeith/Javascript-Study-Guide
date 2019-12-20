@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="fundpt2.css">
+    <title>Study</title>
+</head>
+<body>
+  <a id="back" href="index.html">Fundamentals: Part 1</a>
+  <header>
+    <img id="book" src="images/book.png" alt="paint brushes">
+    <span id="title">Javascript Study Guide</span>
+  </header>
+
+  <div id="part">Fundamentals: Part 2</div>
+
+<main>
+
+  <ul>
+    <li>What are the eight data types of javascript?
+    </li>
+    <p>
+      <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse1" role="button"             aria-expanded="false" aria-controls="collapse1">
+              Togge Answer
+      </a>
+    </p>
+      <div class="collapse" id="collapse1">
+      <div class="card card-body">
+        <p>string, numeric, null, undefined, symbol, object, boolean, BigInt</p>
+      </div>
+      </div>
+
+
+    <li>Which data type is NOT primitive?</li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Togge Answer
+          </a>
+        </p>
+    <div class="collapse" id="collapse2">
+      <div class="card card-body">
+        <p>object</p>
+      </div>
+    </div>
+            
+        <li>What is the difference between single, double, and backtick quotes for strings?</li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse3" role="button"             aria-expanded="false" aria-controls="collapse3">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse3">
+          <div class="card card-body">
+            <p>Single quotes and double quotes behave in exactly the same way in JavaScript.</p>
+            <p>Backticks are used for Template Literals.</p>
+          </div>
+          </div>
+
+        <li>Which type of quote lets you embed variables/expressions into a string?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse4" role="button"             aria-expanded="false" aria-controls="collapse4">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse4">
+          <div class="card card-body">
+            <p>Template literals</p>
+          </div>
+          </div>
+
+        <li>How do you embed variables/expressions into a string?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse5" role="button"             aria-expanded="false" aria-controls="collapse5">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse5">
+          <div class="card card-body">
+            <p>Enclose the string in backticks, and place the variable/expression inside ${}</p>
+          </div>
+          </div>
+
+        <li>How do you escape characters in a string?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse6" role="button"             aria-expanded="false" aria-controls="collapse6">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse6">
+          <div class="card card-body">
+            <p>backslash</p>
+          </div>
+          </div>
+
+        <li>What is the difference between slice/substring/substr?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse7" role="button"             aria-expanded="false" aria-controls="collapse7">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse7">
+          <div class="card card-body">
+            <p>substr can give inconsistent results. Modern browers allow using a negative start index to indicate the number of characters from the end of the string, but IE8 and lower treat a negative start index as 0.
+              substring's parameters are reversable, as it will always use its smallest parameter value as the start index and largest value as the stop index. substring will treat a negative start index as 0.
+              slice extracts from the end of the string if the starting index is negative.
+              </p>
+          </div>
+          </div>
+
+        <li>What are methods?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse8" role="button"             aria-expanded="false" aria-controls="collapse8">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse8">
+          <div class="card card-body">
+            <p>JavaScript methods are actions that can be performed on objects.</p>
+          </div>
+          </div>
+
+        <li>What are the three logical operators and what do they stand for?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse9" role="button"             aria-expanded="false" aria-controls="collapse9">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse9">
+          <div class="card card-body">
+            <p>|| (OR), && (AND), ! (NOT)</p>
+          </div>
+          </div>
+
+        <li>What are the comparison operators?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse10" role="button"             aria-expanded="false" aria-controls="collapse10">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse10">
+          <div class="card card-body">
+            <p>equal to</p>
+          </div>
+          </div>
+
+        <li>What is nesting?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse11" role="button"             aria-expanded="false" aria-controls="collapse11">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse11">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+        <li>What are truthy and falsy values?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse12" role="button"             aria-expanded="false" aria-controls="collapse12">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse12">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What are the falsy values in Javascript?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse13" role="button"             aria-expanded="false" aria-controls="collapse13">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse13">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What is the syntax for an if/else if/else conditional?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse14" role="button"             aria-expanded="false" aria-controls="collapse14">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse14">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What is the syntax for a switch statement?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse15" role="button"             aria-expanded="false" aria-controls="collapse15">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse15">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What is the syntax for a ternary operator?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse16" role="button"             aria-expanded="false" aria-controls="collapse16">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse16">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What is the relationship between null and undefined?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse17" role="button"             aria-expanded="false" aria-controls="collapse17">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse17">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+
+          <li>What are conditionals?
+        </li>
+        <p>
+          <a class="btn btn-secondary btn-small" data-toggle="collapse" href="#collapse18" role="button"             aria-expanded="false" aria-controls="collapse18">
+            Togge Answer
+          </a>
+        </p>
+          <div class="collapse" id="collapse18">
+          <div class="card card-body">
+            <p>Answer Here</p>
+          </div>
+          </div>
+  </ul>
+</main>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
